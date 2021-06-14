@@ -9,7 +9,7 @@ public class Main {
         BufferedReader in = new BufferedReader(new FileReader(".\\Task24\\24_demo.txt"));
 
         char prev = (char) in.read();
-        int count = 0;
+        int count = 1;
         int max = 0;
 
         while (in.ready()) {
