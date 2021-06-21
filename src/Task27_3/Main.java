@@ -2,7 +2,6 @@ package Task27_3;
 
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class Main {
@@ -19,7 +18,6 @@ public class Main {
         for (int i = 1; i < n; i++) {
             a = in.nextInt();
             b = in.nextInt();
-            System.out.println(a + " " + b);
             int[] newMax = getArray();
 
             for (int j = 0; j < 10; j++) {
@@ -42,7 +40,7 @@ public class Main {
             max = newMax;
         }
 
-        System.out.println(Arrays.toString(max));
+        System.out.println(max[8]);
     }
 
     public static int[] getArray() {
