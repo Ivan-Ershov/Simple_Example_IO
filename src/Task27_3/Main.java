@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) throws FileNotFoundException {
-        Scanner in = new Scanner(new File(".\\Task27\\27_B.txt"));
+        Scanner in = new Scanner(new File(".\\Task27\\27-21b.txt"));
         int n = in.nextInt();
         int[] max = getArray();
         int a = in.nextInt();
